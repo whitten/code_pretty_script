@@ -9,7 +9,10 @@ MAIN  ;
   W $$CALL1
   W $$CALL1(1)
   W $$CALL1("2")
+  W $$CALL1(3.1)
   W $$CALL1($HOROLOG)
+  W $$CALL1($H)
+  W $$CALL1()
   Q
 CALL0 ;
   Q ""
