@@ -9,6 +9,7 @@ MAIN  ;
   W $$CALL1
   W $$CALL1(1)
   W $$CALL1("2")
+  W $$CALL1($H)
   Q
 CALL0 ;
   Q ""
